@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volunteers",
+  "info": {
+    "name": "Volunteers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile_url": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "social_list": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "linkedlin"
+      ]
+    },
+    "profile_pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photos",
+  "info": {
+    "name": "photos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uploader_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "created_date": {
+      "type": "date"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
