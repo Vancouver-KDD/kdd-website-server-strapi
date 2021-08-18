@@ -22,19 +22,12 @@
       "type": "date"
     },
     "uid": {
-      "type": "uid"
+      "type": "uid",
+      "required": true
     },
-    "image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "image_url": {
+      "type": "string",
+      "required": true
     }
   }
 }

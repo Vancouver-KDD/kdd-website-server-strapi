@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "volunteers",
   "info": {
-    "name": "Volunteers",
+    "name": "Members",
     "description": ""
   },
   "options": {
@@ -22,7 +22,8 @@
       "type": "string"
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "social_list": {
       "type": "enumeration",
@@ -31,20 +32,9 @@
         "linkedlin"
       ]
     },
-    "profile_pic": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "uid": {
-      "type": "uid"
+      "type": "uid",
+      "required": true
     }
   }
 }
