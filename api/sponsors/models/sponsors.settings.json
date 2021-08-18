@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "members",
+  "collectionName": "sponsors",
   "info": {
-    "name": "Members",
+    "name": "Sponsors",
     "description": ""
   },
   "options": {
@@ -12,25 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "profile_url": {
-      "type": "string"
-    },
-    "company": {
-      "type": "string"
-    },
-    "occupation": {
-      "type": "string"
-    },
-    "name": {
+    "sponsor_name": {
       "type": "string",
       "required": true
     },
-    "uid": {
+    "sponsor_url": {
+      "type": "string"
+    },
+    "sponsor_image_url": {
+      "type": "string"
+    },
+    "ID": {
       "type": "uid",
       "required": true
-    },
-    "social_list": {
-      "type": "json"
     }
   }
 }
