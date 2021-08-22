@@ -12,19 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "sponsor_name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "sponsor_url": {
+    "url": {
       "type": "string"
     },
-    "sponsor_image_url": {
-      "type": "string"
-    },
-    "ID": {
+    "uid": {
       "type": "uid",
       "required": true
+    },
+    "logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

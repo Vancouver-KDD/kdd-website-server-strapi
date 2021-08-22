@@ -25,9 +25,17 @@
       "type": "uid",
       "required": true
     },
-    "image_url": {
-      "type": "string",
-      "required": true
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

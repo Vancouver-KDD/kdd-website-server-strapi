@@ -24,9 +24,6 @@
       "type": "string",
       "required": true
     },
-    "image_url": {
-      "type": "string"
-    },
     "poster": {
       "collection": "file",
       "via": "related",
@@ -38,6 +35,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
