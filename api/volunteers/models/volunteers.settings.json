@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "company": {
+    "Title": {
       "type": "string"
     },
-    "occupation": {
+    "Description": {
       "type": "string"
     },
     "name": {
@@ -25,9 +25,6 @@
     "uid": {
       "type": "uid",
       "required": true
-    },
-    "social_list": {
-      "type": "json"
     },
     "profile_pic": {
       "collection": "file",
@@ -40,6 +37,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "social_list": {
+      "type": "json"
     }
   }
 }
