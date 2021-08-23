@@ -18,9 +18,6 @@
     "description": {
       "type": "richtext"
     },
-    "created_date": {
-      "type": "date"
-    },
     "uid": {
       "type": "uid",
       "required": true
@@ -36,6 +33,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

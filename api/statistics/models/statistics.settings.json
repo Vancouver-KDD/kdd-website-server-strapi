@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "name": "statistics"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meetups": {
+      "type": "integer"
+    },
+    "members": {
+      "type": "integer"
+    }
+  }
+}
