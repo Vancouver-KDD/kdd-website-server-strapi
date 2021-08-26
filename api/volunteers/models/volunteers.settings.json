@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "string"
     },
     "name": {
@@ -26,7 +26,7 @@
       "type": "uid",
       "required": true
     },
-    "profile_pic": {
+    "profilePic": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -38,7 +38,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "social_list": {
+    "socialList": {
       "type": "json"
     }
   }
