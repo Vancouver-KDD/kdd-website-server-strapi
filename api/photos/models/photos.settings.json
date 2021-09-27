@@ -36,6 +36,10 @@
     },
     "title": {
       "type": "string"
+    },
+    "event": {
+      "model": "events",
+      "via": "photos"
     }
   }
 }

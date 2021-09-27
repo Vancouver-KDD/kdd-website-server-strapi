@@ -61,6 +61,10 @@
       ],
       "required": true,
       "default": "hour"
+    },
+    "photos": {
+      "via": "event",
+      "collection": "photos"
     }
   }
 }
