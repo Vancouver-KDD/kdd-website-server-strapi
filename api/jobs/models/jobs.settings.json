@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "name": "Jobs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "applicationUrl": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "companyUrl": {
+      "type": "string"
+    }
+  }
+}

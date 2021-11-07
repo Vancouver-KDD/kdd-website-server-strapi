@@ -22,10 +22,6 @@
       "type": "string",
       "required": true
     },
-    "uid": {
-      "type": "uid",
-      "required": true
-    },
     "profilePic": {
       "collection": "file",
       "via": "related",

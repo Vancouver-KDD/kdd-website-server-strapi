@@ -19,10 +19,6 @@
     "url": {
       "type": "string"
     },
-    "uid": {
-      "type": "uid",
-      "required": true
-    },
     "logo": {
       "collection": "file",
       "via": "related",

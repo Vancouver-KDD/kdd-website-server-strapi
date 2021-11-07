@@ -18,10 +18,6 @@
     "description": {
       "type": "richtext"
     },
-    "uid": {
-      "type": "uid",
-      "required": true
-    },
     "photo": {
       "collection": "file",
       "via": "related",
