@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "uploaderName": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },

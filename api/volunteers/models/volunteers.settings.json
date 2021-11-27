@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "members",
   "info": {
-    "name": "Members",
+    "name": "Organizers",
     "description": ""
   },
   "options": {
@@ -35,7 +35,9 @@
       "pluginOptions": {}
     },
     "socialList": {
-      "type": "json"
+      "type": "component",
+      "repeatable": true,
+      "component": "main.social-link"
     }
   }
 }

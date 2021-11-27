@@ -13,16 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "richtext"
     },
     "applicationUrl": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "companyName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "companyUrl": {
       "type": "string"

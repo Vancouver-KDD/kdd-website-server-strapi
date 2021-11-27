@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contributor_contributors",
+  "info": {
+    "name": "Contributor",
+    "icon": "tools",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

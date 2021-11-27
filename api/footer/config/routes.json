@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/statistics",
-      "handler": "statistics.find",
+      "path": "/footer",
+      "handler": "footer.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/statistics",
-      "handler": "statistics.update",
+      "path": "/footer",
+      "handler": "footer.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/statistics",
-      "handler": "statistics.delete",
+      "path": "/footer",
+      "handler": "footer.delete",
       "config": {
         "policies": []
       }

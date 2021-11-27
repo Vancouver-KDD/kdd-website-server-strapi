@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_main_social_links",
+  "info": {
+    "name": "SocialContact",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "linkedin",
+        "github",
+        "dribbble",
+        "other"
+      ]
+    }
+  }
+}
