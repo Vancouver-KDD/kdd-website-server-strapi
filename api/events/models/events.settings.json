@@ -38,10 +38,6 @@
     "description": {
       "type": "richtext"
     },
-    "creator": {
-      "type": "string",
-      "default": "Admin"
-    },
     "joinLink": {
       "type": "string",
       "required": true,

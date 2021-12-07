@@ -31,8 +31,8 @@
       "type": "string"
     },
     "event": {
-      "model": "events",
-      "via": "photos"
+      "via": "photos",
+      "model": "events"
     }
   }
 }
