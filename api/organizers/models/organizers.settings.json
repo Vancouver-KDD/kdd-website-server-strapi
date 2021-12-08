@@ -23,11 +23,13 @@
       "required": true
     },
     "profilePic": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
-      "allowedTypes": ["images", "files", "videos"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "socialList": {
