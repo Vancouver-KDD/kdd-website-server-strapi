@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/volunteers",
-      "handler": "volunteers.find",
+      "path": "/organizers",
+      "handler": "organizers.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/volunteers/count",
-      "handler": "volunteers.count",
+      "path": "/organizers/count",
+      "handler": "organizers.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/volunteers/:id",
-      "handler": "volunteers.findOne",
+      "path": "/organizers/:id",
+      "handler": "organizers.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/volunteers",
-      "handler": "volunteers.create",
+      "path": "/organizers",
+      "handler": "organizers.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/volunteers/:id",
-      "handler": "volunteers.update",
+      "path": "/organizers/:id",
+      "handler": "organizers.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/volunteers/:id",
-      "handler": "volunteers.delete",
+      "path": "/organizers/:id",
+      "handler": "organizers.delete",
       "config": {
         "policies": []
       }

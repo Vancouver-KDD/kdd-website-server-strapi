@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "uploaderName": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },
@@ -22,20 +19,18 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "title": {
       "type": "string"
     },
     "event": {
-      "model": "events",
-      "via": "photos"
+      "via": "photos",
+      "model": "events"
     }
   }
 }

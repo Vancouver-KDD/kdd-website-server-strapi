@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "statistics",
   "info": {
-    "name": "statistics",
+    "name": "Statistics",
     "description": ""
   },
   "options": {
@@ -12,17 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "meetups": {
-      "type": "integer"
-    },
     "members": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "min": 0
     },
-    "developers": {
-      "type": "json"
-    },
-    "supporters": {
-      "type": "json"
+    "meetups": {
+      "type": "integer",
+      "required": true,
+      "min": 0
     }
   }
 }

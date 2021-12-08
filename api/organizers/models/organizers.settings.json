@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "members",
+  "collectionName": "organizers",
   "info": {
-    "name": "Members",
+    "name": "Organizers",
     "description": ""
   },
   "options": {
@@ -23,19 +23,19 @@
       "required": true
     },
     "profilePic": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "socialList": {
-      "type": "json"
+      "type": "component",
+      "repeatable": true,
+      "component": "main.social-link"
     }
   }
 }
